@@ -15,7 +15,7 @@ const Home = () => {
           <SignInButton />
         </SignedOut>
         <SignedIn>
-          <UserButton />
+          <UserButton afterSignOutUrl="/"/>
         </SignedIn>
     </div>
   )
